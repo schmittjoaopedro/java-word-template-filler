@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<person>
+		<name>Homer Simpson</name>
+		<city>Springfield</city>
+		<phone>55 14 23549985</phone>
+		<marriedYes>true</marriedYes>
+		<marriedNo>false</marriedNo>
+		<male>true</male>
+		<female>false</female>
+	</person>
+</root>
