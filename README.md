@@ -1,2 +1,5 @@
-# java-word-template-filler
-A Java based application to fill data of Word (docx) templates.
+# A Java-based application used to fill word templates doc files.
+
+## Introduction
+
+Companies are every time demanding more automation tools for document generation, these tools are used to speed up contracts generation and client product/formulary documents. To support this necessity, tools like Word have been widely used to create these documents integrated with different technologies to fill data of template files. In this context, the Java programming language combined with the library DOCX4J allow, by programming, generate word documents files filled with XML data. However, besides the extensive documentation of the library and community, this article proposes to offer a very simple guide (step-by-step) to generate word document files using the Java library DOCX4J. This necessity is due to the lack of a very simple and informal document available on the internet.
