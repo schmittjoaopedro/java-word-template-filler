@@ -1,4 +1,4 @@
-# A Java-based application used to fill word templates doc files.
+# A Java-based application used to fill word (docx) files.
 
 ## Introduction
 
