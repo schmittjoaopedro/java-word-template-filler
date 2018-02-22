@@ -30,4 +30,4 @@ With the XML structure defined, open the Word (Word 2013 in this tutorial) and e
 
 With the Developer Tab activated, create a simple document template (Figure 1).
 
-![Word template](images/DocSimple.png)
+![Word template](images/DocSimple.PNG "Simple document")
