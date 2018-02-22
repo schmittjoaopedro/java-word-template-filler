@@ -22,3 +22,12 @@ The WORD document generation is based on XML source files. In this example, the 
     </person>
 </root>
 ```
+
+With the XML structure defined, open the Word (Word 2013 in this tutorial) and enable the developer mode following the steps below:
+* Select File tab > Options > Customize Ribbon
+* In the right side of the Word Options dialog box, select Main Tabs and turn on Developer.
+* Click OK.
+
+With the Developer Tab activated, create a simple document template (Figure 1).
+
+![Word template](images/DocSimple.png)
