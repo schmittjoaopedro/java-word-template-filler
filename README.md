@@ -35,3 +35,11 @@ With the Developer Tab activated, create a simple document template (Figure 1).
 After that, go to the Developer Tab and select the option to show the "XML Mapping Pane", then in the "Custom XML Part" combo select "Add a new part" (Figure 2).
 
 ![Add XML Structure](images/AddXmlStructure.PNG "Add XML Structure")
+
+Then, use the text cursor to install a new control and map this positions using the XML Structure with the desired control type. You can configure text inputs like in Figure 3.
+
+![Add Input Text Control](images/AddControls.PNG "Add Input Text Control")
+
+Another example of control available, is the checkbox ilustrated at Figure 4.
+
+![Add Checkbox Text Control](images/AddCheckControl.PNG "Add Checkbox Text Control")
