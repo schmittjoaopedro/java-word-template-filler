@@ -31,3 +31,7 @@ With the XML structure defined, open the Word (Word 2013 in this tutorial) and e
 With the Developer Tab activated, create a simple document template (Figure 1).
 
 ![Word template](images/DocSimple.PNG "Simple document")
+
+After that, go to the Developer Tab and select the option to show the "XML Mapping Pane", then in the "Custom XML Part" combo select "Add a new part" (Figure 2).
+
+![Add XML Structure](images/AddXmlStructure.PNG "Add XML Structure")
