@@ -38,7 +38,7 @@ After that, go to the Developer Tab and select the option to show the "XML Mappi
 
 Then, use the text cursor to install a new control and map this positions using the XML Structure with the desired control type. You can configure text inputs like in Figure 3.
 
-![Add Input Text Control](images/AddControls.PNG "Add Input Text Control")
+![Add Input Text Control](images/AddControls.png "Add Input Text Control")
 
 Another example of control available, is the checkbox ilustrated at Figure 4.
 
