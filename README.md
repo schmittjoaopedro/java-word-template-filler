@@ -32,7 +32,7 @@ With the Developer tab activated, create a simple document template (Figure 1).
 
 ![Word template](images/DocSimple.PNG "Simple document")
 
-<figure><img src='//discourse-meta.s3-us-west-1.amazonaws.com/original/2X/3/39239a7f2b0f0aa72bdd0d3c1880f15f1a967276.png'><figcaption>The discourse logo</figcaption></figure>
+<figure><img src='images/DocSimple.PNG'><figcaption>The discourse logo</figcaption></figure>
 
 After that, go to the Developer Tab and click in the "XML Mapping Panel" button to open more options about XML data, then in the "Custom XML Part" combo select "Add a new part" (Figure 2).
 
