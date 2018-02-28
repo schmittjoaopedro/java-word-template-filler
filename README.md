@@ -28,9 +28,10 @@ With the XML structure defined, open the Word (Word 2010 in this tutorial) and e
 * In the right side of the Word Options dialog box, select Main Tabs and turn on the Developer tab.
 * Click OK.
 
-With the Developer tab activated, create a simple document template (Figure 1).
+With the Developer tab activated, create a simple document template (![Word template][WordTemplate]).
 
-![Word template](images/DocSimple.PNG "Simple document")
+[WordTemplate]: images/DocSimple.PNG 
+                "Simple document"
 
 After that, go to the Developer Tab and click in the "XML Mapping Panel" button to open more options about XML data, then in the "Custom XML Part" combo select "Add a new part" (Figure 2).
 
