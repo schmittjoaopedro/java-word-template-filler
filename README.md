@@ -30,23 +30,27 @@ With the XML structure defined, open the Word (Word 2010 in this tutorial) and e
 
 With the Developer tab activated, create a simple document template (Figure 1).
 
-![Word template](images/DocSimple.PNG "Simple document")
-
-| [![Word template](images/DocSimple.PNG)](http://videoblocks.com)  |
+| [![Word template](images/DocSimple.PNG)](images/DocSimple.PNG)  |
 |:---:|
 | Figure 1: Simple Document |
 
 After that, go to the Developer Tab and click in the "XML Mapping Panel" button to open more options about XML data, then in the "Custom XML Part" combo select "Add a new part" (Figure 2).
 
-![Add XML Structure](images/AddXmlStructure.PNG "Add XML Structure")
+| [![Add XML Structure](images/AddXmlStructure.PNG)](images/AddXmlStructure.PNG)  |
+|:---:|
+| Figure 2: Add XML Structure |
 
 Then, use the text cursor to select the position to install a new control, then add the control using the XML Structure with the desired control type. You can configure text inputs like in Figure 3.
 
-![Add Input Text Control](images/AddControls.png "Add Input Text Control")
+| [![Add Input Text Control](images/AddControls.PNG)](images/AddControls.PNG)  |
+|:---:|
+| Figure 3: Add Input Text Control |
 
 To exemplify another control example, in figure 4 is ilustrated a checkbox configuration.
 
-![Add Checkbox Text Control](images/AddCheckControl.PNG "Add Checkbox Text Control")
+| [![Add Checkbox Text Control](images/AddCheckControl.PNG)](images/AddCheckControl.PNG)  |
+|:---:|
+| Figure 4: Add Checkbox Text Control |
 
 After that, save the word document and create a simple Java project using the [DOCX4J](https://www.docx4java.org/) library. The code necessary to process the word document is simple, the algorithm below exemplify how to use the DOCX4J library.
 
@@ -97,4 +101,6 @@ Execute the above program with the XML data presented below.
 
 If everything works without any error, a word document output file will be generated, like the presented in figure 5.
 
-![Generated document](images/Result.PNG "Generated document")
+| [![Generated document](images/Result.PNG)](images/Result.PNG)  |
+|:---:|
+| Figure 5: Generated document |
