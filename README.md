@@ -47,7 +47,7 @@ To exemplify another control example, in figure 4 is ilustrated a checkbox confi
 After that, save the word document and create a simple Java project using the [DOCX4J](https://www.docx4java.org/) library. The code necessary to process the word document is simple, the algorithm below exemplify how to use the DOCX4J library.
 
 ```{java}
-package net.weg.maestro.me.service;
+package com.github.schmittjoaopedro;
 
 import org.docx4j.Docx4J;
 import org.docx4j.openpackaging.packages.WordprocessingMLPackage;
