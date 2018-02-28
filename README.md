@@ -8,7 +8,7 @@ Companies are every time demanding more automation tools for documents generatio
 
 The WORD document files generation is based on XML source files. In this example, the XML used applied to the word document template is presented below:
 
-```{xml}
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <root>
     <person>
@@ -46,7 +46,7 @@ To exemplify another control example, in figure 4 is ilustrated a checkbox confi
 
 After that, save the word document and create a simple Java project using the [DOCX4J](https://www.docx4java.org/) library. The code necessary to process the word document is simple, the algorithm below exemplify how to use the DOCX4J library.
 
-```{java}
+```java
 package com.github.schmittjoaopedro;
 
 import org.docx4j.Docx4J;
@@ -76,7 +76,7 @@ public class WordTest {
 
 Execute the above program with the XML data presented below.
 
-```{xml}
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <root>
     <person>
