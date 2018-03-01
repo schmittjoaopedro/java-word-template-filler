@@ -1,12 +1,12 @@
-# A Java-based application used to fill word (docx) files.
+# A Java-based application used to fill Word (docx) files.
 
 ## Introduction
 
-Companies are every time demanding more automation tools for documents generation, these tools are used to speed up contracts generation and client product/formulary documents. To support this necessity, tools like Word have been widely used to create these documents and have been integrated with different technologies that fill data in template files. In this context, the Java programming language combined with the library DOCX4J allow, by programming, generate word documents files filled with data from XML files. However, besides the extensive documentation of the library and community, this article proposes to offer a very simple guide (step-by-step) to generate word document files using the Java library DOCX4J. This necessity is due to the lack of simple and informal guides available on the internet.
+Companies are every time demanding more automation tools for documents generation, these tools are used to speed up contracts generation and client product/formulary documents. To support this necessity, tools like Word have been widely used to create these documents and have been integrated with different technologies that fill data in template files. In this context, the Java programming language combined with the library DOCX4J allow, by programming, generate Word documents files filled with data from XML files. However, besides the extensive documentation of the library and community, this article proposes to offer a very simple guide (step-by-step) to generate Word document files using the Java library DOCX4J. This necessity is due to the lack of simple and informal guides available on the internet.
 
-## Guide to generate word files with Java
+## Guide to generate Word files with Java
 
-The WORD document files generation is based on XML source files. In this example, the XML used applied to the word document template is presented below:
+The Word document files generation is based on XML source files. In this example, the XML structure applied to the Word document template is presented below:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -23,36 +23,40 @@ The WORD document files generation is based on XML source files. In this example
 </root>
 ```
 
-With the XML structure defined, open the Word (Word 2010 in this tutorial) and enable the developer mode following the steps below:
+With the XML structure defined, open the Word and enable the developer mode following the steps below (Figure 1):
 * Select File tab > Options > Customize Ribbon
-* In the right side of the Word Options dialog box, select Main Tabs and turn on the Developer tab.
+* On the right side of the Word Options dialog box, select Main Tabs and turn on the Developer tab.
 * Click OK.
 
-With the Developer tab activated, create a simple document template (Figure 1).
-
-| [![Word template](images/DocSimple.PNG)](images/DocSimple.PNG)  |
+| [![Developer Tab](images/DeveloperTab.png)](images/DeveloperTab.png)  |
 |:---:|
-| Figure 1: Simple Document |
+| Figure 1: Word 2013 Developer Tab |
 
-After that, go to the Developer Tab and click in the "XML Mapping Panel" button to open more options about XML data, then in the "Custom XML Part" combo select "Add a new part" (Figure 2).
+With the Developer tab activated, create a simple document template (Figure 2).
 
-| [![Add XML Structure](images/AddXmlStructure.PNG)](images/AddXmlStructure.PNG)  |
+| [![Word template](images/DocSimple.png)](images/DocSimple.png)  |
 |:---:|
-| Figure 2: Add XML Structure |
+| Figure 2: Simple Document |
 
-Then, use the text cursor to select the position to install a new control, then add the control using the XML Structure with the desired control type. You can configure text inputs like in Figure 3.
+After that, go to the Developer Tab and click in the "XML Mapping Pane" button to open more options about XML data, then in the "Custom XML Part" combo select "Add a new part" (Figure 3).
 
-| [![Add Input Text Control](images/AddControls.PNG)](images/AddControls.PNG)  |
+| [![Add XML Structure](images/AddXmlStructure.png)](images/AddXmlStructure.png)  |
 |:---:|
-| Figure 3: Add Input Text Control |
+| Figure 3: Add XML Structure |
 
-To exemplify another control example, in figure 4 is ilustrated a checkbox configuration.
+Use the text cursor to select the position to install a new control, then add the control using the XML Structure with the desired control type. An example is presented in Figure 4.
 
-| [![Add Checkbox Text Control](images/AddCheckControl.PNG)](images/AddCheckControl.PNG)  |
+| [![Add Input Text Control](images/AddControls.png)](images/AddControls.png)  |
 |:---:|
-| Figure 4: Add Checkbox Text Control |
+| Figure 4: Add Input Text Control |
 
-After that, save the word document and create a simple Java project using the [DOCX4J](https://www.docx4java.org/) library. The code necessary to process the word document is simple, the algorithm below exemplify how to use the DOCX4J library.
+To exemplify another control example, figure 5 illustrate a checkbox configuration.
+
+| [![Add Checkbox Text Control](images/AddCheckControl.png)](images/AddCheckControl.png)  |
+|:---:|
+| Figure 5: Add Checkbox Text Control |
+
+Finally, save the Word document and create a simple Java project using the [DOCX4J](https://www.docx4java.org/) library. The code necessary to process the Word document is presented below.
 
 ```java
 package com.github.schmittjoaopedro;
@@ -99,8 +103,8 @@ Execute the above program with the XML data presented below.
 </root>
 ```
 
-If everything works without any error, a word document output file will be generated, like the presented in figure 5.
+If everything works without any error, a Word document output file will be generated, like the presented in figure 5.
 
-| [![Generated document](images/Result.PNG)](images/Result.PNG)  |
+| [![Generated document](images/Result.png)](images/Result.png)  |
 |:---:|
 | Figure 5: Generated document |
