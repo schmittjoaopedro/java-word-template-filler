@@ -103,8 +103,8 @@ Execute the above program with the XML data presented below.
 </root>
 ```
 
-If everything works without any error, a Word document output file will be generated, like the presented in figure 5.
+If everything works without any error, a Word document output file will be generated, like the presented in figure 6.
 
 | [![Generated document](images/Result.png)](images/Result.png)  |
 |:---:|
-| Figure 5: Generated document |
+| Figure 6: Generated document |
