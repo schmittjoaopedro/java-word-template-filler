@@ -17,6 +17,9 @@ public class App {
                 String wordTemplatePath = args[0];
                 String xmlDataPath = args[1];
                 String wordOutputPath = args[2];
+                logger.info("Template file: " + wordTemplatePath);
+                logger.info("XML file: " + xmlDataPath);
+                logger.info("Output file: " + wordOutputPath);
                 WordTemplateFiller wordTemplateFiller = new WordTemplateFiller();
                 wordTemplateFiller.generateWord(wordTemplatePath, xmlDataPath, wordOutputPath);
             } else {
