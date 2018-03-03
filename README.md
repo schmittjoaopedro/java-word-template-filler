@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Companies are every time demanding more automation tools for documents generation, these tools are used to speed up contracts generation and client documentation. To support this necessity, tools like Word have been widely used integrated with different technologies to fill data in template files. In this context, the Java programming language combined with the library DOCX4J allow, by programming, generate Word documents files filled with data from XML files. However, besides the extensive library documentation and community support available in the internet, there is still a lack for simple guides, and this article proposes to offer a very simple guide (step-by-step) to generate Word document files using the DOCX4J library.
+Companies are every time demanding more automation tools for documents generation, these tools are used to speed up contracts generation and client documentation. To support this necessity, tools like Word have been widely used integrated with different technologies to fill data in template files. In this context, the Java programming language combined with the library DOCX4J allow, by programming, generate Word documents files filled with data from XML files. However, besides the extensive library documentation and community support available on the internet, there is still a lack for simple guides, and this article proposes to offer a very simple guide (step-by-step) to generate Word document files using the DOCX4J library.
 
 ## Guide to generate Word files with Java
 
@@ -44,13 +44,13 @@ After that, go to the Developer Tab and click in the "XML Mapping Pane" button t
 |:---:|
 | Figure 3: Add XML Structure |
 
-Select our new XML structure with the name (no namespace), and use the text cursor to select a position for the control, after that, add a new Plain Text control using the XML Structure. An example is presented at Figure 4.
+Select our new XML structure with the name (no namespace), and use the text cursor to select a position for the control, after that, add a new Plain Text control using the XML Structure. An example is presented in figure 4.
 
 | [![Add Input Text Control](images/AddControls.png)](images/AddControls.png)  |
 |:---:|
 | Figure 4: Add Input Text Control |
 
-To exemplify another control example, figure 5 illustrate a checkbox configuration.
+To exemplify another control example, figure 5 illustrates a checkbox configuration.
 
 | [![Add Checkbox Text Control](images/AddCheckControl.png)](images/AddCheckControl.png)  |
 |:---:|
