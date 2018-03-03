@@ -6,7 +6,7 @@ Companies are every time demanding more automation tools for documents generatio
 
 ## Guide to generate Word files with Java
 
-The Word document files generation is based on XML source files. In this example, the XML structure applied to the Word document template is presented below:
+Word document files generation is based on XML source files. In this example, the XML structure used to fill the Word document template is presented below:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -25,7 +25,7 @@ The Word document files generation is based on XML source files. In this example
 
 With the XML structure defined, open the Word and enable the developer mode following the steps below (Figure 1):
 * Select File tab > Options > Customize Ribbon
-* On the right side of the Word Options dialog box, select Main Tabs and turn on the Developer tab.
+* On the right side of the Word options box, select "Main Tabs" and mark the "Developer" checkbox.
 * Click OK.
 
 | [![Developer Tab](images/DeveloperTab.png)](images/DeveloperTab.png)  |
@@ -38,13 +38,13 @@ With the Developer tab activated, create a simple document template (Figure 2).
 |:---:|
 | Figure 2: Simple Document |
 
-After that, go to the Developer Tab and click in the "XML Mapping Pane" button to open more options about XML data, then in the "Custom XML Part" combo select "Add a new part" (Figure 3).
+After that, go to the Developer Tab and click in the "XML Mapping Pane" button to open XML data configuration, then in the "Custom XML Part" combo select "Add a new part" (Figure 3).
 
 | [![Add XML Structure](images/AddXmlStructure.png)](images/AddXmlStructure.png)  |
 |:---:|
 | Figure 3: Add XML Structure |
 
-Use the text cursor to select the position to install a new control, then add the control using the XML Structure with the desired control type. An example is presented in Figure 4.
+Select our XML structure, with the name (no namespace), and use the text cursor to select a position for the control, after that, add a new Plain Text control using the XML Structure. An example is presented at Figure 4.
 
 | [![Add Input Text Control](images/AddControls.png)](images/AddControls.png)  |
 |:---:|
@@ -103,7 +103,7 @@ Execute the above program with the XML data presented below.
 </root>
 ```
 
-If everything works without any error, a Word document output file will be generated, like the presented in figure 6.
+If everything works fine, a Word document output file will be generated, with the data presented in figure 6.
 
 | [![Generated document](images/Result.png)](images/Result.png)  |
 |:---:|
